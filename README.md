@@ -6,7 +6,7 @@ Ce projet a pour objectif d’explorer et de visualiser les résultats de l'enqu
 
 ## 📌 Objectif
 
-Identifier et visualiser les tendances clés dans les réponses à l'enquête Stack Overflow 2024, à travers des analyses statistiques et des visualisations interactives, dans le but de :
+Identifier et visualiser les tendances clés dans les réponses à l'enquête Stack Overflow 2024, à travers des analyses statistiques et des visualisations pertinentes, dans le but de :
 
 - Mieux comprendre le paysage actuel du développement logiciel
 - Dégager les technologies et outils les plus utilisés et convoités
@@ -45,6 +45,11 @@ Les données sont issues de l'enquête annuelle Stack Overflow Developer Survey 
 
 ## 📊 Visualisations
 
+Une sélection des graphiques générés est incluse dans le rapport PowerPoint à des fins de présentation.  
+➡️ **L'intégralité des visualisations, traitements de données, et analyses détaillées se trouvent dans le script Python du projet.**
+
+Les visualisations incluent notamment :
+
 - Répartition des types de développeurs
 - Analyse par tranches d’âge, expérience, pays
 - IA les plus utilisées / désirées / admirées
@@ -67,13 +72,10 @@ Ce projet illustre la richesse des données disponibles dans l'enquête Stack Ov
 
 ## 📎 Auteur
 
-- **Nom** : [Ton Nom]
-- **LinkedIn** : [Ton Profil LinkedIn]
-- **Portfolio** : [Lien vers ton portfolio si disponible]
-- **Email** : [Ton Email]
+- **Nom** : Alpha Amladou BAH
+- **Email** : amadalpha93@gmail.com
+- - **Téléphone** : +32465990664
 
 ---
 
 ## 📌 Licence
-
-Ce projet est proposé sous la licence MIT. Voir le fichier `LICENSE` pour plus d’informations.
