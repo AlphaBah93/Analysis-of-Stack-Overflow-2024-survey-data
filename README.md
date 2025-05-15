@@ -1,81 +1,54 @@
-# 🧠 Analyse des données de l’enquête Stack Overflow 2024
+# 🧠 Stack Overflow 2024 Survey Data Analysis
 
-Ce projet a pour objectif d’explorer et de visualiser les résultats de l'enquête Stack Overflow 2024 afin de dégager les grandes tendances dans le domaine du développement logiciel. L'étude met en lumière les profils types de développeurs, l'utilisation des technologies (IA, bases de données, langages...), ainsi que des informations sur les salaires, l’expérience, la répartition géographique et bien plus encore.
-
----
-
-## 📌 Objectif
-
-Identifier et visualiser les tendances clés dans les réponses à l'enquête Stack Overflow 2024, à travers des analyses statistiques et des visualisations pertinentes, dans le but de :
-
-- Mieux comprendre le paysage actuel du développement logiciel
-- Dégager les technologies et outils les plus utilisés et convoités
-- Évaluer l’impact de l’IA dans la pratique quotidienne des développeurs
+This project aims to explore and visualize the results of the 2024 Stack Overflow Developer Survey, highlighting major trends in the software development world. Through descriptive and visual analysis, it showcases developer profiles, technology adoption (AI, databases, etc.), and key insights about experience, geography, and preferences in the developer community.
 
 ---
 
-## 📁 Source des données
+## 📌 Objective
 
-Les données sont issues de l'enquête annuelle Stack Overflow Developer Survey 2024, disponible sur Kaggle :  
-🔗 [Stack Overflow Annual Developer Survey 2024 – Kaggle](https://www.kaggle.com/datasets/berkayalan/stack-overflow-annual-developer-survey-2024)
-
----
-
-## 🛠️ Technologies utilisées
-
-- **Langage** : Python  
-- **IDE** : Visual Studio Code  
-- **Bibliothèques** :
-  - `pandas` : manipulation de données
-  - `numpy` : traitement numérique
-  - `matplotlib`, `seaborn` : visualisation des données
+To identify and understand the main trends within the global developer community based on responses from over 65,000 participants in the Stack Overflow 2024 survey. The analysis covers developer roles, AI adoption, preferred tools, geographic and experience distribution, and more.
 
 ---
 
-## 🧪 Méthodologie
+## 🛠️ Technologies Used
 
-1. **Chargement des données** depuis un fichier CSV
-2. **Nettoyage** : suppression des doublons, gestion des valeurs manquantes (par la médiane, moyenne ou mode selon le type de donnée)
-3. **Prétraitement** : conversion des types, normalisation
-4. **Exploration** : agrégation par groupes, création de visualisations
-5. **Visualisation** : création de graphiques illustrant les tendances par âge, expérience, pays, technologies, etc.
-6. **Interprétation** : storytelling et conclusions à partir des résultats
-
----
-
-## 📊 Visualisations
-
-Une sélection des graphiques générés est incluse dans le rapport PowerPoint à des fins de présentation.  
-➡️ **L'intégralité des visualisations, traitements de données, et analyses détaillées se trouvent dans le script Python du projet.**
-
-Les visualisations incluent notamment :
-
-- Répartition des types de développeurs
-- Analyse par tranches d’âge, expérience, pays
-- IA les plus utilisées / désirées / admirées
-- Technologies de bases de données préférées par groupe d’âge
-- Évolution de la rémunération moyenne selon l’âge et l’expérience
+- **Language**: Python  
+- **IDE**: Visual Studio Code  
+- **Libraries**:
+  - `pandas`: data manipulation
+  - `numpy`: numerical processing
+  - `matplotlib`, `seaborn`: data visualization
 
 ---
 
-## 💬 Discussion
+## 🧪 Methodology
 
-L’étude révèle un fort engouement pour les profils full-stack et les outils d’intelligence artificielle, avec une nette dominance de ChatGPT. Les jeunes développeurs et les étudiants représentent une part significative des répondants, montrant un intérêt croissant pour le métier. Les bases de données comme PostgreSQL et MySQL restent largement plébiscitées. Cette diversité reflète un secteur dynamique, où l’adaptabilité et la curiosité technique sont clés.
-
----
-
-## ✅ Conclusion
-
-Ce projet illustre la richesse des données disponibles dans l'enquête Stack Overflow 2024. L’analyse offre une vision d’ensemble des tendances actuelles dans l’écosystème des développeurs, utile pour les professionnels, recruteurs et passionnés du domaine. Il démontre également l’importance de la data science dans la compréhension des communautés tech.
-
----
-
-## 📎 Auteur
-
-- **Nom** : Alpha Amladou BAH
-- **Email** : amadalpha93@gmail.com
-- - **Téléphone** : +32465990664
+1. **Load the data** from the CSV file  
+2. **Clean the data**: remove duplicates, handle missing values (replacing with mean, median, or most frequent value depending on the column type)  
+3. **Preprocess**: convert, group, and normalize relevant data  
+4. **Exploratory data analysis**: group and analyze by category (age, experience, country, etc.)  
+5. **Visualize**: create clear, relevant visualizations  
+6. **Synthesize**: build a storytelling report based on key findings
 
 ---
 
-## 📌 Licence
+## 🗂️ Project Structure
+
+The project is organized as follows:
+
+📁 StackOverflow_2024_Analysis/
+│
+├── 📁 Capture
+│ ├── 📁 All → All generated visualizations
+│ └── 📁 In Report → Graphs used in the final report
+│
+├── 📁 dataset
+│ ├── 2024 Developer Survey.PDF → Official survey questionnaire
+│ ├── survey_results_public.csv → Raw data
+│ └── survey_results_schema.csv → Column schema and descriptions
+│
+├── 📁 Rapport
+│ └── Rapport_StackOverflow2024.pdf → PDF report with key visualizations and insights
+│
+├── 📄 Python.ipynb → Full Python script (data cleaning, analysis, and visualization)
+└── 📄 README.md → Project documentation
