@@ -44,7 +44,7 @@ The project is organized as follows:
 │
 ├── 📁 dataset
 │ ├── 2024 Developer Survey.PDF → Official survey questionnaire
-│ ├── survey_results_public.csv → Raw data
+│ ├── survey_results_public.zip → Raw data
 │ └── survey_results_schema.csv → Column schema and descriptions
 │
 ├── 📁 Rapport
